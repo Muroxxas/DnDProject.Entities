@@ -45,6 +45,7 @@
     <Compile Include="Character\DataModels\Character.cs" />
     <Compile Include="Character\DataModels\Health.cs" />
     <Compile Include="Character\DataModels\IsProficient.cs" />
+    <Compile Include="Character\DataModels\Stats.cs" />
     <Compile Include="Character\ViewModels\CharacterVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
