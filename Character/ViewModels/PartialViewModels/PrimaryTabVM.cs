@@ -24,7 +24,7 @@ namespace DnDProject.Entities.Character.ViewModels.PartialViewModels
 
         [Required]
         public Guid Race { get; set; }
-        List<RaceListModel> races { get; set; }
+        public List<RaceListModel> Races { get; set; }
 
         [Required]
         public StatsCM Stats { get; set; }

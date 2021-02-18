@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DnDProject.Entities.CustomAttributes.Mapping;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

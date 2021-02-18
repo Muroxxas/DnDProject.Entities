@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DnDProject.Entities.Character.ViewModels.PartialViewModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -28,6 +29,12 @@ namespace DnDProject.Entities.Character.ViewModels
         public string Background { get; set; }
 
         public bool Inspiration { get; set; }
+
+        public PrimaryTabVM PrimaryTab { get; set; }
+
+        public NoteTabVM NotesTab { get; set; }
+
+        public InventoryTabVM InventoryTab { get; set; }
 
         public CharacterVM() { }
 

@@ -51,14 +51,29 @@
     <Compile Include="Character\ViewModels\CharacterVM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ClassesCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\CombatCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\HeldItemCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\IsProficientCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\MoneyCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\NoteCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\StatsCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\InventoryTabVM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\NoteTabVM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\PrimaryTabVM.cs" />
     <Compile Include="Class\DataModels\Character_Class_Subclass.cs" />
     <Compile Include="Class\DataModels\ClassAbility.cs" />
     <Compile Include="Class\DataModels\PlayableClass.cs" />
     <Compile Include="Class\DataModels\Subclass.cs" />
     <Compile Include="Class\DataModels\SubclassAbility.cs" />
+    <Compile Include="Class\ViewModels\CreateClassVM.cs" />
+    <Compile Include="Class\ViewModels\PartialViewModels\Components\ClassAbilityVM.cs" />
+    <Compile Include="Class\ViewModels\PartialViewModels\Components\ClassListModel.cs" />
+    <Compile Include="Class\ViewModels\PartialViewModels\Components\Data\_ClassAbility.cs" />
+    <Compile Include="Class\ViewModels\PartialViewModels\Components\Data\_Subclass.cs" />
+    <Compile Include="Class\ViewModels\PartialViewModels\Components\Data\_SubclassAbility.cs" />
+    <Compile Include="Class\ViewModels\PartialViewModels\Components\SubclassAbilityVM.cs" />
+    <Compile Include="Class\ViewModels\PartialViewModels\Components\SubclassVM.cs" />
+    <Compile Include="Class\ViewModels\UpdateClassVM.cs" />
+    <Compile Include="CustomAttributes\Mapping\NotMappedFromAttribute.cs" />
     <Compile Include="Items\DataModels\Character_Item.cs" />
     <Compile Include="Items\DataModels\Tag.cs" />
     <Compile Include="Items\DataModels\Item.cs" />
@@ -73,8 +88,6 @@
     <Compile Include="Spells\DataModels\Spell_Character.cs" />
     <Compile Include="Spells\DataModels\Spell_Class.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Class\ViewModels\PartialViewModels\Components\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
