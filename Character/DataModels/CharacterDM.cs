@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DnDProject.Entities.Character.DataModels
 {
-    public class Character
+    public class CharacterDM
     {
         [Key, Column(Order = 0)]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
@@ -34,6 +34,10 @@ namespace DnDProject.Entities.Character.DataModels
 
         public bool Inspiration { get; set; }
 
-        public Character() { }
+        public int ArmorClass { get; set; }
+
+        public int MovementSpeed { get; set; }
+
+        public CharacterDM() { }
     }
 }

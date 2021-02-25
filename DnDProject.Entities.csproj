@@ -42,23 +42,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Character\DataModels\Character.cs" />
+    <Compile Include="Character\DataModels\CharacterDM.cs" />
     <Compile Include="Character\DataModels\Currency.cs" />
     <Compile Include="Character\DataModels\Health.cs" />
     <Compile Include="Character\DataModels\IsProficient.cs" />
     <Compile Include="Character\DataModels\Note.cs" />
     <Compile Include="Character\DataModels\Stats.cs" />
+    <Compile Include="Character\ViewModels\CharacterSelectVM.cs" />
     <Compile Include="Character\ViewModels\CharacterVM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ClassesCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\ClassesListModel.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\CombatCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\HeldItemCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\HeldItemRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\IsProficientCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\ItemDetailsCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownClassCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownSpellCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownSpellRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\MoneyCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\NoteCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\SpellDetailsCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\SpellSlotsCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\StatsCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\InventoryTabVM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\NoteTabVM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\PrimaryTabVM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\SpellsTabVM.cs" />
     <Compile Include="Class\DataModels\Character_Class_Subclass.cs" />
     <Compile Include="Class\DataModels\ClassAbility.cs" />
     <Compile Include="Class\DataModels\PlayableClass.cs" />

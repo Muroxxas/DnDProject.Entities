@@ -36,6 +36,8 @@ namespace DnDProject.Entities.Character.ViewModels
 
         public InventoryTabVM InventoryTab { get; set; }
 
+        public SpellsTabVM SpellsTab { get; set; }
+
         public CharacterVM() { }
 
     }
