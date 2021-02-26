@@ -56,12 +56,13 @@
     <Compile Include="Character\ViewModels\PartialViewModels\Components\HeldItemRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\IsProficientCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ItemDetailsCM.cs" />
-    <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownClassCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownClassRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownSpellRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\MoneyCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\NoteCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\SpellDetailsCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\StatsCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\SubclassesListModel.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\InventoryTabVM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\NoteTabVM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\PrimaryTabVM.cs" />
