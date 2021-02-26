@@ -9,7 +9,6 @@ namespace DnDProject.Entities.Character.ViewModels.PartialViewModels
 {
     public class SpellsTabVM
     {
-        public SpellSlotsCM SpellSlots { get; set; }
-        public KnownSpellCM[] KnownSpells { get; set; }
+        public KnownSpellRowCM[] KnownSpells { get; set; }
     }
 }

@@ -11,6 +11,6 @@ namespace DnDProject.Entities.Character.ViewModels.PartialViewModels
     {
         public virtual MoneyCM Money { get; set; }
 
-        public HeldItemCM[] Items { get; set; }
+        public HeldItemRowCM[] Items { get; set; }
     }
 }
