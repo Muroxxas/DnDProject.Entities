@@ -53,6 +53,7 @@
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ClassesCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ClassesListModel.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\CombatCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\foundItemCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\HeldItemRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\IsProficientCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ItemDetailsCM.cs" />
