@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\DnD-Project\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\DnD-Project\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -57,6 +63,7 @@
     <Compile Include="Character\ViewModels\PartialViewModels\Components\HeldItemRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\IsProficientCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ItemDetailsCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\ItemSearchResultCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownClassRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\KnownSpellRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\MoneyCM.cs" />
@@ -97,6 +104,11 @@
     <Compile Include="Spells\DataModels\Spell_Character.cs" />
     <Compile Include="Spells\DataModels\Spell_Class.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\PagedList.css" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
