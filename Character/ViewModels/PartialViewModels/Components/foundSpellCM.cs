@@ -6,19 +6,9 @@ using System.Threading.Tasks;
 
 namespace DnDProject.Entities.Character.ViewModels.PartialViewModels.Components
 {
-    public class KnownSpellRowCM
+    public class foundSpellCM
     {
-        public Guid Spell_id { get; set; }
-
         public string Name { get; set; }
-
-        public int Level { get; set; }
-
-        public string School { get; set; }
-
-        public bool isPrepared { get; set; }
-
-        public int Index { get; set; }
-
+        public Guid Spell_id { get; set; }
     }
 }

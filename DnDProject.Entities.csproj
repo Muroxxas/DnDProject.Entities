@@ -60,6 +60,7 @@
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ClassesListModel.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\CombatCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\foundItemCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\foundSpellCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\HeldItemRowCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\IsProficientCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\ItemDetailsCM.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Character\ViewModels\PartialViewModels\Components\MoneyCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\NoteCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\SpellDetailsCM.cs" />
+    <Compile Include="Character\ViewModels\PartialViewModels\Components\SpellSearchResultCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\StatsCM.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\Components\SubclassesListModel.cs" />
     <Compile Include="Character\ViewModels\PartialViewModels\InventoryTabVM.cs" />
