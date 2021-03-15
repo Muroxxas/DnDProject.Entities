@@ -15,20 +15,6 @@ namespace DnDProject.Entities.Character.ViewModels
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public Guid Character_id { get; set; }
 
-        [Required]
-        [StringLength(45)]
-        public string Name { get; set; }
-
-        [StringLength(45)]
-        public string Alignment { get; set; }
-
-        public Guid Race_id { get; set; }
-
-        public int Exp { get; set; }
-
-        public string Background { get; set; }
-
-        public bool Inspiration { get; set; }
 
         public PrimaryTabVM PrimaryTab { get; set; }
 

@@ -8,18 +8,6 @@ namespace DnDProject.Entities.Character.ViewModels.PartialViewModels.Components
 {
     public class IsProficientCM
     {
-        public bool StrengthSave { get; set; }
-
-        public bool DexteritySave { get; set; }
-
-        public bool ConstitutionSave { get; set; }
-
-        public bool IntelligenceSave { get; set; }
-
-        public bool WisdomSave { get; set; }
-
-        public bool CharismaSave { get; set; }
-
         public bool Acrobatics { get; set; }
 
         public bool AnimalHandling { get; set; }
@@ -31,6 +19,8 @@ namespace DnDProject.Entities.Character.ViewModels.PartialViewModels.Components
         public bool Deception { get; set; }
 
         public bool History { get; set; }
+
+        public bool Insight { get; set; }
 
         public bool Intimidation { get; set; }
 

@@ -26,15 +26,16 @@ namespace DnDProject.Entities.Character.ViewModels.PartialViewModels
         public Guid Race { get; set; }
         public List<RaceListModel> Races { get; set; }
 
-        public List<Guid> SelectedClasses { get; set; }
-        public List<ClassesListModel> Classes { get; set; }
+        public ClassesCM Classes { get; set; }
 
         [Required]
         public StatsCM Stats { get; set; }
+        public SavesCM Saves { get; set; }
+
         [Required]
         public CombatCM Combat { get; set; }
-        [Required]
-        public IsProficientCM IsProficient { get; set; }
+        
+        public ProficiencyCM Skills { get; set; }
 
     }
 }
